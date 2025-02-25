@@ -1,0 +1,61 @@
+.yoshi {
+    position: absolute; /* Posição absoluta na tela */
+    top: 10%; /* Centraliza verticalmente */
+    left: 20%; /* Alinha a imagem à direita */
+    transform: translateY(-50%); /* Ajusta para ficar exatamente no centro vertical */
+    width: 100px; /* Define um tamanho para a imagem (opcional) */
+}
+
+body {
+    background-color: rgba(32, 24, 24, 0.757); /* Cor de fundo do body */
+}
+
+p {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Usando Comic Sans */
+    font-size: 32px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Usando Comic Sans */
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #ab7b22;
+}
+
+h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Usando Comic Sans */
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #000000;
+}
+body {
+    background-image: url('restaurant.png');
+    background-repeat: repeat; /* Faz o padrão se repetir */
+}
+
+tx{
+    color: #e74c3c;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra no texto */
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de tamanho igual */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+.item {
+    background-color: #2ecc71;
+    padding: 20px;
+    color: white;
+}
+
+div {
+    border: 2px solid #3498db;
+    border-radius: 10px; /* Arredonda os cantos */
+    padding: 20px;
+}
