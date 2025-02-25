@@ -1,7 +1,7 @@
 .yoshi {
     position: absolute; /* Posição absoluta na tela */
-    top: 10%; /* Centraliza verticalmente */
-    left: 20%; /* Alinha a imagem à direita */
+    top: 20%; /* Centraliza verticalmente */
+    left: 40%; /* Alinha a imagem à direita */
     transform: translateY(-50%); /* Ajusta para ficar exatamente no centro vertical */
     width: 100px; /* Define um tamanho para a imagem (opcional) */
 }
